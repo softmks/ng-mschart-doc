@@ -697,7 +697,7 @@ export class AppComponent {
 
     <div class="tab-pane fade " id="c-templateData">
         <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;sidebar&quot;&gt;
-  &lt;a class&#x3D;&quot;active&quot; href&#x3D;&quot;documentation/index.html&quot; target&#x3D;&quot;_blank&quot;&gt;Home (Doc..)&lt;/a&gt;
+  &lt;a class&#x3D;&quot;active&quot; href&#x3D;&quot;https://softmks.github.io/ng-mschart-doc/&quot; target&#x3D;&quot;_blank&quot;&gt;Home (Doc..)&lt;/a&gt;
   &lt;button class&#x3D;&quot;dropdown-btn&quot; (click)&#x3D;&quot;expand($event, &#x27;line&#x27;)&quot;&gt;Line
     &lt;i class&#x3D;&quot;fa&quot; [ngClass]&#x3D;&quot;carot&quot;&gt;&lt;/i&gt;
   &lt;/button&gt;
@@ -824,7 +824,7 @@ export class AppComponent {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><div class="sidebar">  <a class="active" href="documentation/index.html" target="_blank">Home (Doc..)</a>  <button class="dropdown-btn" (click)="expand($event, \'line\')">Line    <i class="fa" [ngClass]="carot"></i>  </button>  <div class="dropdown-container" [ngStyle]="{\'display\': lineTypesDisplay}">    <a (click)="onClick($event, \'line_basic\')">Basic</a>    <a (click)="onClick($event, \'line_brush\')">Brush</a>  </div></div><!-- Page content --><div class="content">  <line-basic *ngIf="show.line_basic"></line-basic>  <line-brush *ngIf="show.line_brush"></line-brush></div><router-outlet></router-outlet></div>'
+        var COMPONENT_TEMPLATE = '<div><div class="sidebar">  <a class="active" href="https://softmks.github.io/ng-mschart-doc/" target="_blank">Home (Doc..)</a>  <button class="dropdown-btn" (click)="expand($event, \'line\')">Line    <i class="fa" [ngClass]="carot"></i>  </button>  <div class="dropdown-container" [ngStyle]="{\'display\': lineTypesDisplay}">    <a (click)="onClick($event, \'line_basic\')">Basic</a>    <a (click)="onClick($event, \'line_brush\')">Brush</a>  </div></div><!-- Page content --><div class="content">  <line-basic *ngIf="show.line_basic"></line-basic>  <line-brush *ngIf="show.line_brush"></line-brush></div><router-outlet></router-outlet></div>'
     var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BasicComponent', 'selector': 'line-basic'},{'name': 'BrushComponent', 'selector': 'line-brush'},{'name': 'NgMschartComponent', 'selector': 'ng-mschart'}];
     var DIRECTIVES = [];
     var ACTUAL_COMPONENT = {'name': 'AppComponent'};
