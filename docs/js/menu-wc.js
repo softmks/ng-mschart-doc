@@ -55,36 +55,28 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 <a href="modules/AppModule.html" data-type="entity-link">AppModule</a>
                                     <li class="chapter inner">
                                         <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
-                                            'data-target="#components-links-module-AppModule-3f6a77f9f26b6bdd9b50ad505af17830"' : 'data-target="#xs-components-links-module-AppModule-3f6a77f9f26b6bdd9b50ad505af17830"' }>
+                                            'data-target="#components-links-module-AppModule-13b12a4e6ec8749c77b328dc7642f620"' : 'data-target="#xs-components-links-module-AppModule-13b12a4e6ec8749c77b328dc7642f620"' }>
                                             <span class="icon ion-md-cog"></span>
                                             <span>Components</span>
                                             <span class="icon ion-ios-arrow-down"></span>
                                         </div>
-                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-AppModule-3f6a77f9f26b6bdd9b50ad505af17830"' :
-                                            'id="xs-components-links-module-AppModule-3f6a77f9f26b6bdd9b50ad505af17830"' }>
+                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-AppModule-13b12a4e6ec8749c77b328dc7642f620"' :
+                                            'id="xs-components-links-module-AppModule-13b12a4e6ec8749c77b328dc7642f620"' }>
                                             <li class="link">
                                                 <a href="components/AppComponent.html"
                                                     data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
-                                            </li>
-                                            <li class="link">
-                                                <a href="components/BasicComponent.html"
-                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">BasicComponent</a>
-                                            </li>
-                                            <li class="link">
-                                                <a href="components/BrushComponent.html"
-                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">BrushComponent</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="chapter inner">
                                         <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
-                                            'data-target="#pipes-links-module-AppModule-3f6a77f9f26b6bdd9b50ad505af17830"' : 'data-target="#xs-pipes-links-module-AppModule-3f6a77f9f26b6bdd9b50ad505af17830"' }>
+                                            'data-target="#pipes-links-module-AppModule-13b12a4e6ec8749c77b328dc7642f620"' : 'data-target="#xs-pipes-links-module-AppModule-13b12a4e6ec8749c77b328dc7642f620"' }>
                                             <span class="icon ion-md-add"></span>
                                             <span>Pipes</span>
                                             <span class="icon ion-ios-arrow-down"></span>
                                         </div>
-                                        <ul class="links collapse" ${ isNormalMode ? 'id="pipes-links-module-AppModule-3f6a77f9f26b6bdd9b50ad505af17830"' :
-                                            'id="xs-pipes-links-module-AppModule-3f6a77f9f26b6bdd9b50ad505af17830"' }>
+                                        <ul class="links collapse" ${ isNormalMode ? 'id="pipes-links-module-AppModule-13b12a4e6ec8749c77b328dc7642f620"' :
+                                            'id="xs-pipes-links-module-AppModule-13b12a4e6ec8749c77b328dc7642f620"' }>
                                             <li class="link">
                                                 <a href="pipes/SeriesPipe.html"
                                                     data-type="entity-link" data-context="sub-entity" data-context-id="modules">SeriesPipe</a>
@@ -94,6 +86,102 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                             </li>
                             <li class="link">
                                 <a href="modules/AppRoutingModule.html" data-type="entity-link">AppRoutingModule</a>
+                            </li>
+                            <li class="link">
+                                <a href="modules/DashboardsModuleModule.html" data-type="entity-link">DashboardsModuleModule</a>
+                                    <li class="chapter inner">
+                                        <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
+                                            'data-target="#components-links-module-DashboardsModuleModule-8ad9163fb8f3d1789eb24bff9e090854"' : 'data-target="#xs-components-links-module-DashboardsModuleModule-8ad9163fb8f3d1789eb24bff9e090854"' }>
+                                            <span class="icon ion-md-cog"></span>
+                                            <span>Components</span>
+                                            <span class="icon ion-ios-arrow-down"></span>
+                                        </div>
+                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-DashboardsModuleModule-8ad9163fb8f3d1789eb24bff9e090854"' :
+                                            'id="xs-components-links-module-DashboardsModuleModule-8ad9163fb8f3d1789eb24bff9e090854"' }>
+                                            <li class="link">
+                                                <a href="components/DarkDashboardComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">DarkDashboardComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/MaterialDashboardComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">MaterialDashboardComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/ModernDashboardComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">ModernDashboardComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/RealtimeDashboardComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">RealtimeDashboardComponent</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                            </li>
+                            <li class="link">
+                                <a href="modules/LineModuleModule.html" data-type="entity-link">LineModuleModule</a>
+                                    <li class="chapter inner">
+                                        <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
+                                            'data-target="#components-links-module-LineModuleModule-94040a2dad596ac36d13745243a57771"' : 'data-target="#xs-components-links-module-LineModuleModule-94040a2dad596ac36d13745243a57771"' }>
+                                            <span class="icon ion-md-cog"></span>
+                                            <span>Components</span>
+                                            <span class="icon ion-ios-arrow-down"></span>
+                                        </div>
+                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-LineModuleModule-94040a2dad596ac36d13745243a57771"' :
+                                            'id="xs-components-links-module-LineModuleModule-94040a2dad596ac36d13745243a57771"' }>
+                                            <li class="link">
+                                                <a href="components/BasicLineComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">BasicLineComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/BrushLineComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">BrushLineComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/DashedLineComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">DashedLineComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/GradientLineComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">GradientLineComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/LogarithmicLineComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">LogarithmicLineComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/RealtimeLineComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">RealtimeLineComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/SteplineLineComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">SteplineLineComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/SyncingChartLineComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">SyncingChartLineComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/WithAnnotationsLineComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">WithAnnotationsLineComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/WithDataLabelsLineComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">WithDataLabelsLineComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/WithImageLineComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">WithImageLineComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/WithMissingDataLineComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">WithMissingDataLineComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/ZoomableTimeSeriesLineComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">ZoomableTimeSeriesLineComponent</a>
+                                            </li>
+                                        </ul>
+                                    </li>
                             </li>
                             <li class="link">
                                 <a href="modules/NgMschartModule.html" data-type="entity-link">NgMschartModule</a>
@@ -109,6 +197,24 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                             <li class="link">
                                                 <a href="components/NgMschartComponent.html"
                                                     data-type="entity-link" data-context="sub-entity" data-context-id="modules">NgMschartComponent</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                            </li>
+                            <li class="link">
+                                <a href="modules/SparklinesModuleModule.html" data-type="entity-link">SparklinesModuleModule</a>
+                                    <li class="chapter inner">
+                                        <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
+                                            'data-target="#components-links-module-SparklinesModuleModule-a30368f29dec6288ad08276001c56da4"' : 'data-target="#xs-components-links-module-SparklinesModuleModule-a30368f29dec6288ad08276001c56da4"' }>
+                                            <span class="icon ion-md-cog"></span>
+                                            <span>Components</span>
+                                            <span class="icon ion-ios-arrow-down"></span>
+                                        </div>
+                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-SparklinesModuleModule-a30368f29dec6288ad08276001c56da4"' :
+                                            'id="xs-components-links-module-SparklinesModuleModule-a30368f29dec6288ad08276001c56da4"' }>
+                                            <li class="link">
+                                                <a href="components/SparklinesComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">SparklinesComponent</a>
                                             </li>
                                         </ul>
                                     </li>
